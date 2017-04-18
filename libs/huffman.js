@@ -61,13 +61,3 @@ function huffman(charmap) {
 }
 
 module.exports = huffman;
-
-let charmap = {
-  'a': 10,
-  'b': 9,
-  'c': 11,
-  'd': 1000,
-  'e': 0,
-}
-
-huffman(charmap);
