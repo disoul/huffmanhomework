@@ -57,7 +57,7 @@ function huffman(charmap) {
   let currentCode = '';
   getHuffmanCode(root, currentCode);
 
-  console.log(huffmanCode);
+  return huffmanCode;
 }
 
 module.exports = huffman;
